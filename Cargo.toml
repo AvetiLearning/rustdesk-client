@@ -1,15 +1,15 @@
 [package]
-name = "rustdesk"
+name = "avetidesk"
 version = "1.4.1"
-authors = ["rustdesk <info@rustdesk.com>"]
+authors = ["avetidesk <info@avetidesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
-default-run = "rustdesk"
+description = "AvetiDesk Remote Desktop"
+default-run = "avetidesk"
 rust-version = "1.75"
 
 [lib]
-name = "librustdesk"
+name = "libavetidesk"
 crate-type = ["cdylib", "staticlib", "rlib"]
 
 [[bin]]
@@ -192,10 +192,10 @@ members = ["libs/scrap", "libs/hbb_common", "libs/enigo", "libs/clipboard", "lib
 exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
-LegalCopyright = "Copyright © 2025 Purslane Ltd. All rights reserved."
-ProductName = "RustDesk"
-FileDescription = "RustDesk Remote Desktop"
-OriginalFilename = "rustdesk.exe"
+LegalCopyright = "Copyright © 2025 Aveti Learning. All rights reserved."
+ProductName = "AvetiDesk"
+FileDescription = "AvetiDesk Remote Desktop"
+OriginalFilename = "avetidesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
@@ -211,8 +211,8 @@ hound = "3.5"
 docopt = "1.1"
 
 [package.metadata.bundle]
-name = "RustDesk"
-identifier = "com.carriez.rustdesk"
+name = "AvetiDesk"
+identifier = "com.aveti.avetidesk"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 

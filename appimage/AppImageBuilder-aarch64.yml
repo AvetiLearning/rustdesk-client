@@ -15,9 +15,9 @@ script:
 AppDir:
   path: ./AppDir
   app_info:
-    id: rustdesk
-    name: rustdesk
-    icon: rustdesk
+      id: avetidesk
+  name: avetidesk
+  icon: avetidesk
     version: 1.4.1
     exec: usr/share/rustdesk/rustdesk
     exec_args: $@
